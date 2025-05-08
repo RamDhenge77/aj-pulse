@@ -34,7 +34,7 @@ const LandingPage = () => {
       {/* Centered Title Section */}
       <div className="text-center pt-0 pb-8">
         <p className="text-gray-600 max-w-3xl mx-auto">
-          AI-Powered Insights from Your Salik Trips
+          AI-Powered Insights from Your AJ Trips
         </p>
       </div>
 
@@ -43,7 +43,7 @@ const LandingPage = () => {
         {/* Full-width background image of toll gate */}
         {/* <img
           src="/lovable-uploads/71b0a736-fc23-4a17-8575-c55ec8908dfa.png"
-          alt="Dubai highway with Salik toll gate"
+          alt="Dubai highway with AJ toll gate"
           className="w-full h-full object-cover"
         /> */}
 
@@ -60,13 +60,13 @@ const LandingPage = () => {
           className="h-[32rem] w-[80%] object-cover"
         >
           <source
-            src="https://public-content-dp.s3.us-east-2.amazonaws.com/Salik+Promo+3+Aura+Technologies+Ltd's+Video+-+May+1%2C+2025-VEED.mp4"
+            src="https://public-content-dp.s3.us-east-2.amazonaws.com/AJ+Promo+3+Aura+Technologies+Ltd's+Video+-+May+1%2C+2025-VEED.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
         </video> */}
 
-        {/* Upload panel with Salik theme - adjusted positioning and background opacity */}
+        {/* Upload panel with AJ theme - adjusted positioning and background opacity */}
         <div
           className="absolute top-0 right-0 bottom-0 w-96 p-8 flex flex-col"
           style={{
@@ -75,7 +75,7 @@ const LandingPage = () => {
           }}
         >
           <h3 className="text-xl font-medium mb-4 text-white">
-            Upload Your Salik Report
+            Upload Your AJ Report
           </h3>
           <p className="text-sm text-gray-300 mb-6">
             We'll analyze your driving behavior and recommend optimal insurance
@@ -95,8 +95,8 @@ const LandingPage = () => {
             {/* Upload Component */}
             <InfoCard
               icon={<FileText size={32} className="text-[#2596be]" />}
-              title="Upload Salik Report"
-              description="Your Salik toll statement with trip details"
+              title="Upload AJ Report"
+              description="Your AJ toll statement with trip details"
               bgColor="bg-[#e8f7fb]"
             />
 
@@ -121,7 +121,7 @@ const LandingPage = () => {
 
       {/* Footer */}
       <footer className="py-6 text-center text-gray-500 text-sm bg-white border-t border-gray-200">
-        © 2025 Salik Smart Insurance. All rights reserved.
+        © 2025 AJ Smart Insurance. All rights reserved.
       </footer>
     </div>
   );
