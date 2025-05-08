@@ -27,7 +27,7 @@ const AskAgent: React.FC<AskAgentProps> = ({ tripData }) => {
   const { toast } = useToast();
 
   const suggestedQuestions = [
-    "How many Salik gates did I cross last month?",
+    "How many AJ gates did I cross last month?",
     "What's my highest toll charge in a single trip?",
     "When do I usually overspeed?",
     "Which route costs me the most toll?",
@@ -179,7 +179,7 @@ ${fullTripData}
   };
 
   const createPrompt = (userQuery: string, dataContext: string): string => {
-    return `You are a data analyst assistant specialized in interpreting Salik toll trip data for Dubai drivers.
+    return `You are a data analyst assistant specialized in interpreting AJ toll trip data for Dubai drivers.
 
 Your responses must be crisp, professional, and highly relevant. Focus only on what the user asked.
 
@@ -234,7 +234,7 @@ Consider using less frequented gates like **Business Bay Crossing** (18 trips, A
               {
                 role: "system",
                 content:
-                  "You are an assistant that analyzes Salik toll data for Dubai drivers. Provide detailed, data-driven insights based on the complete trip information provided. Be specific and reference actual data points in your answers and respond to user in crisp, to the point and less wordy manne and it should sound professional and well formatted.",
+                  "You are an assistant that analyzes AJ toll data for Dubai drivers. Provide detailed, data-driven insights based on the complete trip information provided. Be specific and reference actual data points in your answers and respond to user in crisp, to the point and less wordy manne and it should sound professional and well formatted.",
               },
               {
                 role: "user",
@@ -289,10 +289,10 @@ Consider using less frequented gates like **Business Bay Crossing** (18 trips, A
             </div>
             <div>
               <h3 className="text-xl font-medium mb-2">
-                Ask about your Salik data
+                Ask about your AJ data
               </h3>
               <p className="text-gray-500 mb-4">
-                Ask any question about your Salik trips and our AI will provide
+                Ask any question about your AJ trips and our AI will provide
                 insights based on your complete data.
               </p>
 
@@ -345,7 +345,7 @@ Consider using less frequented gates like **Business Bay Crossing** (18 trips, A
         <Input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask a question about your Salik data..."
+          placeholder="Ask a question about your AJ data..."
           disabled={loading}
           className="flex-1"
         />

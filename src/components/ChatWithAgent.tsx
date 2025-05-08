@@ -18,7 +18,7 @@ const ChatWithAgent = ({tripData, chatOpen, setChatOpen}) => {
       </PopoverTrigger>
       <PopoverContent className="w-[26rem] mr-3 shadow-2xl pt-0 px-0 overflow-hidden">
         <div className="bg-[#2596be] py-1 text-[12px] text-white text-center relative">
-          Ask about your Salik data
+          Ask about your AJ data
           {/* <X className="absolute top-1 right-2 h-4 w-4 cursor-pointer" /> */}
         </div>
         <AskAgent tripData={tripData} />

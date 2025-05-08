@@ -16,7 +16,7 @@ const Header: React.FC = () => {
             />
           </div>
           <div>
-            <h1 className="text-[#2596be] font-bold text-xl">Salik Pulse</h1>
+            <h1 className="text-[#2596be] font-bold text-xl">AJ Pulse</h1>
             <p className="text-gray-500 text-sm">Your mobility assistant</p>
           </div>
         </Link>
